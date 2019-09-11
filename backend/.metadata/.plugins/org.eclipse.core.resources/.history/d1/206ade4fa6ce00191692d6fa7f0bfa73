@@ -1,0 +1,24 @@
+package com.njh.app.nbacontracts.model;
+
+
+@Data
+@NoArgsConstructor
+@RequiredArgsConstructor
+@Entity
+@Table(name = "team")
+public class Team {
+
+	@Id
+    @GeneratedValue
+    private Long id;
+    @NonNull
+    private String teamName;
+    private String accronym;
+    private String link;
+    private String champOdds;
+    private String conference;
+    private String division;
+
+    @OneToMany(fetch = FetchType.EAGER, cascade=CascadeType.ALL)
+    private Set<PlayerContract> playerContracts;
+}

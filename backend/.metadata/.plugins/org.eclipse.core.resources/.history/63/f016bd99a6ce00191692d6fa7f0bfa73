@@ -1,0 +1,9 @@
+package com.njh.app.nbacontracts.model;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
+
+public class TeamRepository {
+
+}
