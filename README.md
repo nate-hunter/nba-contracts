@@ -12,7 +12,7 @@
 # About this project:
 This project accomplishes two objectives: 
 1. Build a RESTful API with Spring Boot 
-2. Build data-driven UI diagrams. 
+2. Build data-driven UI diagrams with D3.js 
 
 I also want to get practice using React as well as Java. As someone with a strong interest in data visualization, this project allows me to have fun and learn at the same time :)
 
